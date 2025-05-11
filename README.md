@@ -134,7 +134,8 @@ komutunu kullanalım ve yeni IP'mizi görmüş olduk. IP'mizin çalıştığın�
 ```bash
 ping -c 5 google.com
 ```
-yaparak ping gönderelim. Eğer 5 paket için kaybımız yoksa bu durumda çalışıyor demektir. *NOT = Makine elime geldiğinde DNS nameserver de bozuktu fakat bu işlemi yaptıktan sonra DNS otomatik olarak geldi bu sebeple tekrar bir şey yapmayacağız. Onu da kısa bir anlatımla özet geçelim.*
+yaparak ping gönderelim. Eğer 5 paket için kaybımız yoksa bu durumda çalışıyor demektir. 
+- *NOT = Makine elime geldiğinde DNS nameserver de bozuktu fakat bu işlemi yaptıktan sonra DNS otomatik olarak geldi bu sebeple tekrar bir şey yapmayacağız. Onu da kısa bir anlatımla özet geçelim.*
 ```bash
 cat /etc/resolv.conf
 ```
