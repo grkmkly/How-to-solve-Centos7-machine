@@ -275,7 +275,7 @@ komutunu kullanalım. Sonrasında da Apache'yi güncellemek için
 sudo yum update httpd
 ```
 yapalım ve gelen kısımda indirmek istediğinize emin misiniz sorusuna y diyelim ve indirelim. Update işlemi yaptık. Şimdi tarayıcımızda yeni bir sekme açalım.(Cache olduğu için) ve makinemizin IP'sini yazalım. Gördüğümüz üzere artık sayfada bir gülen yüz var. BAŞARDIK!
-``plaintext
+```plaintext
 Apache çalışıyor hem de son sürümde :) 
 ```
 - yazısı ile karşılaştık ve görevimizi tamamladık.
