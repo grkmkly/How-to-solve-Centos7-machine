@@ -29,20 +29,6 @@ komutunu kullanıyoruz ve oluşturulacak yeni şifremizi 2 kez girerek root şif
 touch /.autorelabel
 ```
 komutunu kullanarak chroot sonrası dosya işlemlerini kaydetmemizi sağlar. Bu komuttan sonra artık makineyi yeniden başlatalım.
-```bash
-mount -a
-```
-komutunu kullanalım. (AÇIKLAMA)
-Sonrasında ise
-```bash 
-vi /etc/ftsab
-```
-komutunu kullanalım. (AÇIKLAMA)
-sonrasında
-```bash
-reboot 
-```
-yaparak sistemi yeniden başlatalım. Artık kullanıcı adı kısmına root yazarak ve oluşturduğumuz şifremizi girerek giriş yapabiliriz.
 
 ## Makine Analizi ve Apache Çözümü
 - Artık makine içindeyiz. Buradaki README dosyasını okuyalım.
